@@ -34,6 +34,11 @@ mcp.server.name=My MCP Server
 
 Once added, the starter will automatically expose your `@RestController` endpoints as MCP tools. You can access the MCP server at `/mcp`.
 
+### Available Endpoints
+
+- `/mcp/tools`: Lists all available tools.
+- `/mcp/execute`: Executes a specific tool based on the provided request.
+
 ## Building and Using Locally
 
 If you want to use this starter in another project (e.g., `spring-boot-mcp-demo`), follow these steps:
