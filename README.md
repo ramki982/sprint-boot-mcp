@@ -14,7 +14,7 @@ Add the dependency to your Spring Boot project:
 
 ```xml
 <dependency>
-    <groupId>com.example</groupId>
+    <groupId>com.msra.mcp</groupId>
     <artifactId>spring-boot-mcp-starter</artifactId>
     <version>1.0.0</version>
 </dependency>
@@ -54,7 +54,7 @@ In your `spring-boot-mcp-demo` project, add the following dependency to your `bu
 
 ```gradle
 dependencies {
-    implementation 'com.example:spring-boot-mcp-starter:1.0.0'
+    implementation 'com.msra.mcp:spring-boot-mcp-starter:1.0.0'
 }
 ```
 
@@ -62,7 +62,7 @@ If you are using Maven, add this to your `pom.xml`:
 
 ```xml
 <dependency>
-    <groupId>com.example</groupId>
+    <groupId>com.msra.mcp</groupId>
     <artifactId>spring-boot-mcp-starter</artifactId>
     <version>1.0.0</version>
 </dependency>
@@ -84,7 +84,7 @@ Create a new Spring Boot application and add the MCP starter dependency to your 
 
 ```gradle
 dependencies {
-    implementation 'com.example:spring-boot-mcp-starter:1.0.0'
+    implementation 'com.msra.mcp:spring-boot-mcp-starter:1.0.0'
 }
 ```
 
@@ -92,7 +92,7 @@ dependencies {
 
 ```xml
 <dependency>
-    <groupId>com.example</groupId>
+    <groupId>com.msra.mcp</groupId>
     <artifactId>spring-boot-mcp-starter</artifactId>
     <version>1.0.0</version>
 </dependency>
