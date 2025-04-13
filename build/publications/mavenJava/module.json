@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.msra.mcp",
+    "module": "spring-boot-mcp",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spring-boot-mcp-1.0.0-plain.jar",
+          "url": "spring-boot-mcp-1.0.0-plain.jar",
+          "size": 12336,
+          "sha512": "ad026142476cdc63aa6245e9a44447f1938dffa125c4f452dc9531b1e35c96d3f775540449614a03ceecb6fb95d3954c8052137f3c7cb6acbfd6bc2921d834ee",
+          "sha256": "d02513ab9eca7c2e7d5b15dc8cd69af22e0cdcdfc6b1d019c10203da9ed1c984",
+          "sha1": "8b8e3e9f3b98a788662c6c5174019f546074a2cb",
+          "md5": "93847255ebfcbd1b899ba81dd1c37e90"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-actuator",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure",
+          "version": {
+            "requires": "3.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-mcp-1.0.0-plain.jar",
+          "url": "spring-boot-mcp-1.0.0-plain.jar",
+          "size": 12336,
+          "sha512": "ad026142476cdc63aa6245e9a44447f1938dffa125c4f452dc9531b1e35c96d3f775540449614a03ceecb6fb95d3954c8052137f3c7cb6acbfd6bc2921d834ee",
+          "sha256": "d02513ab9eca7c2e7d5b15dc8cd69af22e0cdcdfc6b1d019c10203da9ed1c984",
+          "sha1": "8b8e3e9f3b98a788662c6c5174019f546074a2cb",
+          "md5": "93847255ebfcbd1b899ba81dd1c37e90"
+        }
+      ]
+    }
+  ]
+}
