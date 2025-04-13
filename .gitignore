@@ -1,0 +1,51 @@
+# Gradle build files
+.gradle/
+build/
+
+# Maven local repository
+.m2/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Compiled class files
+*.class
+
+# JAR files
+*.jar
+
+# Generated files
+out/
+
+# Spring Boot specific
+spring-boot-mcp-1.0.0-plain.jar
+
+# Test reports
+test-results/
+
+# Gradle Wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+# Temporary files created by build tools
+build/tmp/
+
+# Local Maven repository publication
+build/publications/mavenJava/
